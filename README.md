@@ -1,5 +1,5 @@
 # Electronic-Medical-Reporting:
-This project comes from a University Class at the University of Toronto (CSC302: Engineering Large Software Systems). I collaborated with Christopher Chiu, Kory McLean, Ellen Chen, and Jayde Yue on this project. 
+This project comes from a University Class at the University of Toronto (CSC302: Engineering Large Software Systems). The team consisted of Christopher Chiu, Kory McLean, Ellen Chen, Reece Martin and Jayde Yue. 
 
 ## What it does:
 This project is developed to help doctors keep patient medical records using a standardized forms in XML file format defined by a third party. Our application ingests this XML, parses it, stores it, dynamically renders it, and allows for form filling the the associated actions with saved responses.
