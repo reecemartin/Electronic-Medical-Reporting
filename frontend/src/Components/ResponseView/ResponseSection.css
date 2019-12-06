@@ -1,0 +1,14 @@
+.response-section {
+  padding: 10px;
+  margin: 5px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+}
+
+.section-header {
+  margin-bottom: 5px;
+}
+
+.section-title {
+  font-family: "Open Sans", sans-serif;
+}

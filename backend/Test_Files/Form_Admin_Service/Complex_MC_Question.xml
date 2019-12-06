@@ -1,0 +1,14 @@
+<Question name="Q_76325" ID="76325.100004300" title="Procedure">
+    <ListField name="lf_76325_1">
+        <List name="lst_76325_2">
+            <ListItem name="LI_NS_76240" ID="76240.100004300" title="LDCT " />
+            <ListItem name="LI_Oth_76239" ID="76239.100004300" title="Other (specify)">
+                <ListItemResponseField name="lirf_76239_1" responseRequired="true">
+                    <Response name="rsp_76239_2">
+                        <string name="str_76239_3" />
+                    </Response>
+                </ListItemResponseField>
+            </ListItem>
+        </List>
+    </ListField>
+</Question>

@@ -1,0 +1,9 @@
+<Question name="Q_77913" ID="77913.100004300" title="Hyperacute signs">
+    <Property propClass="numbering" propName="numbering" val="vi"/>
+    <ListField name="lf_77913_1">
+        <List name="lst_77913_2">
+            <ListItem name="LI_77914" ID="77914.100004300" title="Yes" />
+            <ListItem name="LI_77915" ID="77915.100004300" title="No" />
+        </List>
+    </ListField>
+</Question>

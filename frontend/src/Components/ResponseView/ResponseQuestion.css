@@ -1,0 +1,10 @@
+.responseQuestion {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.questionTitle {
+  font-family: "Open Sans", sans-serif;
+}
+.options {
+  font-family: "Open Sans", sans-serif;
+}

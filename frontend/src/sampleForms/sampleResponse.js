@@ -1,0 +1,51 @@
+const sampleResponse = {
+    "sections": [
+      {
+        "subsections": [],
+        "questions": [
+          {
+            "answer_content": "@Adrenocortical neoplasm@",
+            "state": true,
+            "question_id": "76234.100004300"
+          }
+        ],
+        "section_id": "76242.100004300"
+      },
+      {
+        "subsections": [],
+        "questions": [
+          {
+            "state": true,
+            "answer_content": "2019-11-20",
+            "question_id": "76219.100004300"
+          }
+        ],
+        "section_id": "76221.100004300"
+      },
+      {
+        "subsections": [],
+        "questions": [
+          {
+            "answer_content": "Yes",
+            "state": true,
+            "question_id": "77913.100004300"
+          }
+        ],
+        "section_id": "77659.100004300"
+      }
+    ],
+    "free_questions": [
+      {
+        "state": true,
+        "answer_content": "N/A",
+        "question_id": "76386.100004300"
+      }
+    ],
+    "response": {
+      "form_id": "CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF",
+      "patient_id": "patient_1",
+      "filler_id": "clinician@coolcats.com"
+    }
+  };
+  
+export default sampleResponse;

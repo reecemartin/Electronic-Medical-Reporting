@@ -1,0 +1,59 @@
+{
+	"sections": [{
+			"subsections": [],
+			"questions": {
+				"76234.100004300": {
+					"answer_content": "@Adrenocortical neoplasm@",
+					"state": true,
+					"question_id": "76234.100004300"
+				}
+			},
+			"section_id": "76242.100004300"
+		},
+		{
+			"subsections": [{
+					"subsections": [],
+					"questions": {
+						"77913.100004300": {
+							"answer_content": "yes",
+							"state": true,
+							"question_id": "77913.100004300"
+						},
+						"53526.100004300": {
+							"answer_content": "Pancreas",
+							"state": false,
+							"question_id": "53526.100004300"
+						},
+						"77916.100004300": {
+							"answer_content": "Right frontal",
+							"state": true,
+							"question_id": "77916.100004300"
+						}
+					},
+					"section_id": "77659.100004300"
+				}
+
+			],
+			"questions": {
+				"76219.100004300": {
+					"state": true,
+					"answer_content": "2019-11-20",
+					"question_id": "76219.100004300"
+				}
+			},
+			"section_id": "76221.100004300"
+		}
+	],
+	"free_questions": {
+		"76386.100004300": {
+			"state": true,
+			"answer_content": "",
+			"question_id": "76386.100004300"
+		}
+	},
+	"response": {
+		"form_id": "test_complex",
+		"patient_id": "patient 1",
+		"filler_id": "clinician@coolcats.com"
+	}
+}

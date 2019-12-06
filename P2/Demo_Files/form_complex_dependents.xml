@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SDCPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ihe:qrph:sdc:2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="urn:ihe:qrph:sdc:2016 ../Schemas/RFD+SDCRetrieveForm.xsd" packageID="PKG_ACR_CT_STROKE">
+    <XMLPackage>
+        <FormDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="test_complex" baseURI="cap.org" fullURI="_baseURI=cap.org&amp;_lineage=CT_Stroke_CCO.358&amp;_version=1.0.0.DRAFT&amp;_docType=sdcFDF" formTitle="CCO Synoptic Template for  Stroke" lineage="CT_Stroke_CCO.358" filename="CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF.xml" version="1.0.0.DRAFT" xmlns="urn:ihe:qrph:sdc:2016">
+            <Property name="Copyright" type="CAPeCC_static_text" styleClass="copyright" propName="Copyright" val="(c) 2018 College of American Pathologists.  All rights reserved.  License required for use." />
+            <Property name="GenericHeaderText" type="CAPeCC_static_text" propName="GenericHeaderText" val="CCO Radiology Synoptic Template" />
+            <Property name="Category" type="CAPeCC_meta" propName="Category" val="CNS" />
+            <Property name="OfficialName" type="CAPeCC_meta" propName="OfficialName" val="CCO Synoptic Template for  Stroke" />
+            <Property name="CAP_ProtocolName" type="CAPeCC_meta" propName="CAP_ProtocolName" />
+            <Property name="CAP_ProtocolVersion" type="CAPeCC_meta" propName="CAP_ProtocolVersion" />
+            <Property name="TemplateID" type="CAPeCC_meta" propName="TemplateID" val="358.1000043" />
+            <Property name="Restrictions" type="CAPeCC_meta" propName="Restrictions" val="This template applies to CT scans for stroke" />
+            <Property name="CAP_Required" type="CAPeCC_meta" propName="CAP_Required" val="true" />
+            <Property name="AccreditationDate" type="CAPeCC_meta dt.dateTime" propName="AccreditationDate" val="9/14/2018 12:00:00 AM" />
+            <Property name="WebPostingDate" type="CAPeCC_meta dt.dateTime" propName="WebPostingDate" val="9/14/2018 12:00:00 AM" />
+            <Property name="ShortName" type="CAPeCC_meta" propName="ShortName" val="CT_Stroke_CCO" />
+            <Property name="ApprovalStatus" type="CAPeCC_meta" propName="ReleaseStatus" val="DRAFT" />
+            <Property name="AJCC_Version" type="CAPeCC_meta" propName="AJCC_Version" val="8" />
+            <Body name="Body" ID="CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF_Body">
+                <ChildItems name="ch_Body">
+                    <Section name="S_76242" ID="76242.100004300" title="#This template describes a Common Data Element for CT Stroke by the American College of Radiologists">
+                        <ChildItems name="ch_76242_1">
+                            <Question name="Q_Tum_Site_76234" ID="76234.100004300" readOnly="true">
+                                <ListField name="lf_76234_1">
+                                    <List name="lst_76234_2">
+                                        <ListItem name="LI_Adrenal_Gland_76235" ID="76235.100004300" title="Adrenocortical neoplasm" selected="true" />
+                                    </List>
+                                </ListField>
+                            </Question>
+                        </ChildItems>
+                    </Section>
+                    <Section name="S_76221" ID="76221.100004300" title="Administrative &amp; Identification Data">
+                        <ChildItems name="ch_76221_1">
+                            <Question name="Q_76219" ID="76219.100004300" title="Report Date">
+                                <ResponseField name="rf_76219_1">
+                                    <Response name="rsp_76219_2">
+                                        <string name="str_76219_3" />
+                                    </Response>
+                                </ResponseField>
+                            </Question>
+                            <Section name="S_77659" ID="77659.100004300" title="Findings">
+                                <ChildItems name="ch_77659_4">
+                                    <Question name="Q_77913" ID="77913.100004300" title="Hyperacute signs">
+                                        <ListField name="lf_77913_1">
+                                            <List name="lst_77913_2">
+                                                <ListItem name="LI_77914" ID="77914.100004300" title="Yes" />
+                                                <ListItem name="LI_77915" ID="77915.100004300" title="No" />
+                                                <ListItem name="LI_56271" order="168" ID="56271.100004300" title="Tumor invades into other adjacent organ(s)">
+                                                 <ChildItems name="ch_56271_1" order="169">
+                                                  <Question name="Q_53526" order="170" ID="53526.100004300">
+                                                   <Property name="p_altTxt_53526_1" order="171" propName="altText" val="Specify Adjacent Organ(s)" />
+                                                   <ListField name="lf_53526_2" order="172" maxSelections="0">
+                                                    <List name="lst_53526_3" order="173">
+                                                     <ListItem name="LI_56752" order="174" ID="56752.100004300" title="Kidney" />
+                                                     <ListItem name="LI_57748" order="175" ID="57748.100004300" title="Pancreas" />
+                                                     <ListItem name="LI_41409" order="176" ID="41409.100004300" title="Liver" />
+                                                     <ListItem name="LI_42305" order="177" ID="42305.100004300" title="Spleen" />
+                                                     <ListItem name="LI_58229" order="178" ID="58229.100004300" title="Diaphragm" />
+                                                     <ListItem name="LI_46218" order="179" ID="46218.100004300" title="Stomach" />
+                                                     <ListItem name="LI_45594" order="180" ID="45594.100004300" title="Other (specify)">
+                                                      <Property name="p_rptTxt_45594_1" order="181" propName="reportText" val="{no text}" />
+                                                      <ListItemResponseField name="lirf_45594_2" order="182" responseRequired="true">
+                                                       <Response name="rsp_45594_3" order="183">
+                                                        <string name="str_45594_4" order="184" />
+                                                       </Response>
+                                                      </ListItemResponseField>
+                                                     </ListItem>
+                                                    </List>
+                                                   </ListField>
+                                                  </Question>
+                                                 </ChildItems>
+                                                </ListItem>
+                                            </List>
+                                        </ListField>
+                                    </Question>
+                                    <Question name="Q_77916" ID="77916.100004300" title="Location">
+                                        <ListField name="lf_77916_1" maxSelections="0">
+                                            <List name="lst_77916_2">
+                                                <ListItem name="LI_77918" ID="77918.100004300" title="Right frontal" />
+                                                <ListItem name="LI_77917" ID="77917.100004300" title="Temporal" />
+                                                <ListItem name="LI_77919" ID="77919.100004300" title="parietal" />
+                                            </List>
+                                        </ListField>
+                                    </Question>
+                                </ChildItems>
+                            </Section>
+                        </ChildItems>
+                    </Section>
+                    <Question name="Q_Comments_76386" ID="76386.100004300" title="Comment(s)">
+                        <ResponseField name="rf_76386_1">
+                            <Response name="rsp_76386_2">
+                                <string name="str_76386_3" />
+                            </Response>
+                        </ResponseField>
+                    </Question>
+                </ChildItems>
+            </Body>
+            <Footer name="footer" ID="Footer.CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF">
+                <Property type="meta" styleClass="copyright" propName="CopyrightFooter" val="(c) 2018 College of American Pathologists.  All rights reserved.  License required for use." />
+            </Footer>
+        </FormDesign>
+    </XMLPackage>
+</SDCPackage>

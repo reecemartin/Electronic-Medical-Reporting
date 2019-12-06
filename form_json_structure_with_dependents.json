@@ -1,0 +1,274 @@
+{
+    "sections": [
+        {
+            "title": "",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "",
+                    "question_id": "2118.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "@Adrenal gland@"
+                }
+            ],
+            "section_id": "4257.100004300"
+        },
+        {
+            "title": "CLINICAL",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Clinical History (specify)",
+                    "question_id": "4156.100004300",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "Functional Status (Notes J and K)",
+                    "question_id": "53772.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Urinary 17-ketosteroids increased (10 mg / g creatinine / 24 hours)|Cushing syndrome|Conn syndrome|Virilization|Feminization|Weight loss|Other (specify)"
+                }
+            ],
+            "section_id": "17537.100004300"
+        },
+        {
+            "title": "SPECIMEN",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Procedure",
+                    "question_id": "42554.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Percutaneous needle biopsy|Endoscopic directed biopsy (specify radiographic technique)|Adrenalectomy, total|Adrenalectomy, partial|Other (specify)|Not specified"
+                },
+                {
+                    "title": "Specimen Laterality",
+                    "question_id": "52756.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Right|Left|Bilateral|Not specified|Other (specify)"
+                }
+            ],
+            "section_id": "17875.100004300"
+        },
+        {
+            "title": "TUMOR",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Histologic Type (Notes C through E)",
+                    "question_id": "59852.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Adrenal cortical carcinoma|Adrenal cortical carcinoma, oncocytic type|Adrenal cortical carcinoma, myxoid type|Adrenal cortical carcinoma, sarcomatoid type"
+                },
+                {
+                    "title": "Histologic Grade (Notes C through E)",
+                    "question_id": "49275.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Low grade (<= 20 mitoses / 50 high-power fields)|High grade (> 20 mitoses / 50 high-power fields)|# Note: Generally due to core needle biopsy, with insufficient viable tumor to count 50 HPFs.|Cannot be assessed (explain)#"
+                },
+                {
+                    "title": "Tumor Size (Note A)",
+                    "question_id": "2129.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Greatest dimension in Centimeters (cm)|Cannot be determined (explain)"
+                },
+                {
+                    "title": "Tumor Weight (Note B)",
+                    "question_id": "40496.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Specify weight (g)|Cannot be determined"
+                },
+                {
+                    "title": "Tumor Extension",
+                    "question_id": "51265.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {
+                        "Tumor invades into other adjacent organ(s)": {
+                            "title": "",
+                            "question_id": "53526.100004300",
+                            "question_type": "MC",
+                            "state": false,
+                            "dependents": {},
+                            "options": "Kidney|Pancreas|Liver|Spleen|Diaphragm|Stomach|Other (specify)"
+                        }
+                    },
+                    "options": "No evidence of primary tumor|Tumor confined to adrenal cortex without invasion through tumor capsule (if present)|Tumor invades into or through the adrenal capsule|Tumor invades into extra-adrenal structures (specify)|Tumor invades into other adjacent organ(s)|Cannot be assessed"
+                },
+                {
+                    "title": "Lymphovascular Invasion (Note F)",
+                    "question_id": "39990.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Not identified|Large vessel invasion, renal vein (including when identified clinically)|Large vessel invasion, vena cava (including when identified clinically)|Large vessel invasion, not otherwise specified|Microscopic angioinvasion|Lymphatic invasion|Cannot be determined"
+                },
+                {
+                    "title": "Tumor Description",
+                    "question_id": "48491.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Hemorrhagic|Necrotic|Other (specify)"
+                }
+            ],
+            "section_id": "17876.100004300"
+        },
+        {
+            "title": "MARGINS",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Margins",
+                    "question_id": "2153.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {
+                        "Involved by tumor": {
+                            "title": "?Specify Margin(s), if possible",
+                            "question_id": "53074.100004300",
+                            "dependents": {},
+                            "question_type": "ST",
+                            "state": false
+                        },
+                        "Uninvolved by tumor": {
+                            "title": "Distance from Closest Margin in Millimeters (mm)",
+                            "question_id": "26358.100004300",
+                            "question_type": "MC",
+                            "state": false,
+                            "dependents": {},
+                            "options": "Specify in Millimeters (mm)|Cannot be determined (explain)"
+                        }
+                    },
+                    "options": "Uninvolved by tumor|Involved by tumor|Cannot be assessed|Not applicable"
+                }
+            ],
+            "section_id": "17878.100004300"
+        },
+        {
+            "title": "LYMPH NODES",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Regional Lymph Nodes",
+                    "question_id": "1867.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {
+                        "No lymph nodes submitted or found": {
+                            "title": "Number of Lymph Nodes Involved",
+                            "question_id": "45098.100004300",
+                            "question_type": "MC",
+                            "state": false,
+                            "dependents": {},
+                            "options": "Specify number|At least|Number cannot be determined (explain)"
+                        }
+                    },
+                    "options": "No lymph nodes submitted or found"
+                }
+            ],
+            "section_id": "17881.100004300"
+        },
+        {
+            "title": "PATHOLOGIC STAGE CLASSIFICATION  (pTNM, AJCC 8th Edition) (Note G)",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "?TNM Descriptors",
+                    "question_id": "20880.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "?Not applicable|m (multiple primary tumors)|r (recurrent)|y (post-treatment)"
+                },
+                {
+                    "title": "Primary Tumor (pT)",
+                    "question_id": "2137.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Note: There is no category of carcinoma in situ (pTis) relative to carcinomas of the adrenal gland.|pTX: Primary tumor cannot be assessed|pT0: No evidence of primary tumor|pT1: Tumor <= 5 cm in greatest dimension, no extra-adrenal invasion|pT2: Tumor > 5 cm, no extra-adrenal invasion|pT3: Tumor of any size with local invasion, but not invading adjacent organs|pT4: Tumor of any size with invasion of adjacent organs (kidney, diaphragm, pancreas, spleen, or liver) or large blood vessels (renal vein or vena cava)"
+                },
+                {
+                    "title": "Regional Lymph Nodes (pN) (Note H)",
+                    "question_id": "2143.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "pNX: Regional lymph nodes cannot be assessed|pN0: No regional lymph node metastasis|pN1: Metastasis in regional lymph node(s)"
+                },
+                {
+                    "title": "?Distant Metastasis (pM) (Note I)",
+                    "question_id": "2149.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "?Not applicable - pM cannot be determined from the submitted specimen(s)|pM1: Distant metastasis"
+                }
+            ],
+            "section_id": "2136.100004300"
+        },
+        {
+            "title": "ADDITIONAL FINDINGS",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Additional Pathologic Findings",
+                    "question_id": "39188.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "None identified|Hemorrhage|Cystic change|Calcifications|Other (specify)"
+                }
+            ],
+            "section_id": "17884.100004300"
+        },
+        {
+            "title": "SPECIAL STUDIES",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Ancillary Studies (Note L)",
+                    "question_id": "42054.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Ki-67 labeling index (%) (specify)|Reticulin stain (specify type(s) and result(s))|Other (specify type and result)"
+                }
+            ],
+            "section_id": "17880.100004300"
+        }
+    ],
+    "free_questions": [
+        {
+            "title": "?Comment(s)",
+            "question_id": "2168.100004300",
+            "question_type": "ST",
+            "state": true
+        }
+    ],
+    "form": {
+        "form_id": "Adrenal.Bx.Res.129_3.003.001.REL_sdcFDF",
+        "form_title": "ADRENAL GLAND",
+        "package_id": "",
+        "form_footer": "(c) 2019 College of American Pathologists.  All rights reserved.  License required for use."
+    }
+}

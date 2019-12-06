@@ -1,0 +1,32 @@
+matrix:
+  include:
+    -
+      before_script:
+        - "mysql -e 'create database test;' -u root"
+      env: "-DJANGO=1.8 DB=mysql"
+      install:
+        - "pip install django"
+        - "pip install djangorestframework"
+        - "pip install requests"
+      language: python
+      python:
+        - "3.5"
+      script:
+        - "cd backend"
+        - "python3 manage.py makemigrations api"
+        - "python3 manage.py makemigrations form_admin_service"
+        - "python3 manage.py makemigrations form_response_service"
+        - "python3 manage.py migrate --run-syncdb"
+        - "python3 manage.py test"
+      services:
+        - mysql
+    -
+      before_script: ~
+      language: node_js
+      node_js:
+        - "10.15.3"
+      script:
+        - "cd front_end"
+        - "npm i -g npm@6.4.1"
+        - "npm ci"
+        - "npm test"

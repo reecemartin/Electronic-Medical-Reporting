@@ -1,0 +1,176 @@
+{
+    "sections": [
+        {
+            "title": "CLINICAL INFORMATION",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Clinical Information:",
+                    "question_id": "000002",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "Reason for exam:",
+                    "question_id": "000004",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Baseline scan|12 month recall|6 month follow-up|3 month follow-up|Other follow-up"
+                }
+            ],
+            "section_id": "000001"
+        },
+        {
+            "title": "COMPARISON STUDIES",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Comparison Study:",
+                    "question_id": "000011",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {
+                        "Previous CT Exam:": {
+                            "title": "",
+                            "question_id": "000014",
+                            "dependents": {},
+                            "question_type": "ST",
+                            "state": false
+                        }
+                    },
+                    "options": "None Available|Previous CT Exam:"
+                }
+            ],
+            "section_id": "000010"
+        },
+        {
+            "title": "Findings:",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Location:",
+                    "question_id": "000042",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Parenchymal|Subpleural|Fissural"
+                },
+                {
+                    "title": "Attenuation:",
+                    "question_id": "000046",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Solid|Part-solid|Pure Ground Glass"
+                },
+                {
+                    "title": "Mean diameter:",
+                    "question_id": "000048",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "+Length:",
+                    "question_id": "000049",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "+Width:",
+                    "question_id": "000050",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "Margins:",
+                    "question_id": "000077",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Spiculated|Smooth|Lobulated|Polygonal|Halo|Obscured"
+                },
+                {
+                    "title": "Calcification:",
+                    "question_id": "000084",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "None|Benign Pattern|Indeterminate"
+                }
+            ],
+            "section_id": "000032"
+        },
+        {
+            "title": "IMPRESSIONS",
+            "subsections": [
+                {
+                    "title": "Lung-Rads Version 1.1 Assessment Category:",
+                    "subsections": [],
+                    "questions": [
+                        {
+                            "title": "Lung-Rads Version 1.0 Assessment Category:",
+                            "question_id": "000115",
+                            "question_type": "MC",
+                            "state": true,
+                            "dependents": {},
+                            "options": "0 - Additional lung cancer screening CT images and/or comparison to prior chest CT examinations is needed|1 - Continue annual screening with LDCT in 12 months|2 - Continue annual screening with LDCT in 12 months|3 - LDCT in 6 months|4A - LDCT in 3 months; PET/CT may be used when there is a = 8 mm solid component|4B - chest CT with or without contrast, PET/CT and/or tissue sampling depending on the *probability of malignancy and comorbidities. PET/CT may be used when there is a = 8 mm solid component|4X - chest CT with or without contrast, PET/CT and/or tissue sampling depending on the *probability of malignancy and comorbidities. PET/CT may be used when there is a = 8 mm solid component"
+                        }
+                    ],
+                    "section_id": "000114"
+                },
+                {
+                    "title": "Actionable incidental Findings (S Modifier):",
+                    "subsections": [],
+                    "questions": [
+                        {
+                            "title": "Actionable incidental Findings:",
+                            "question_id": "pendiing",
+                            "question_type": "MC",
+                            "state": true,
+                            "dependents": {
+                                "Yes": {
+                                    "title": "Actionable incidental Findings (reiterate incidental finding(s)):",
+                                    "question_id": "394570923",
+                                    "dependents": {},
+                                    "question_type": "ST",
+                                    "state": false
+                                }
+                            },
+                            "options": "Yes|No"
+                        }
+                    ],
+                    "section_id": "000123"
+                }
+            ],
+            "questions": [
+                {
+                    "title": "Pulmonary nodule summary:",
+                    "question_id": "000112",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "+Other Comments",
+                    "question_id": "000129",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                }
+            ],
+            "section_id": "000131"
+        }
+    ],
+    "free_questions": [],
+    "form": {
+        "form_id": "FORM_LDCT_Lung",
+        "form_title": "Lung Cancer Screening Template",
+        "package_id": "PKG_LDCT_Lung",
+        "form_footer": "+ Data elements preceded with this symbol are optional"
+    }
+}

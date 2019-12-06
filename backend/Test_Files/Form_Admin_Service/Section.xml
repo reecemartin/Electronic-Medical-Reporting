@@ -1,0 +1,11 @@
+<Section name="S_76242" ID="76242.100004300" title="#This template describes a Common Data Element for CT Stroke by the American College of Radiologists">
+    <ChildItems name="ch_76242_1">
+        <Question name="Q_Tum_Site_76234" ID="76234.100004300" readOnly="true">
+            <ListField name="lf_76234_1">
+                <List name="lst_76234_2">
+                    <ListItem name="LI_Adrenal_Gland_76235" ID="76235.100004300" title="Adrenocortical neoplasm" selected="true" />
+                </List>
+            </ListField>
+        </Question>
+    </ChildItems>
+</Section>

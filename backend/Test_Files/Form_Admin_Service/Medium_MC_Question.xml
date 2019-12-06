@@ -1,0 +1,15 @@
+<Question name="Q_77920" ID="77920.100004300" title="Vascular Territory">
+    <ListField name="lf_77920_1">
+        <List name="lst_77920_2">
+            <ListItem name="LI_77921" ID="77921.100004300" title="ACA" />
+            <ListItem name="LI_77922" ID="77922.100004300" title="MCA" />
+            <ListItem name="LI_77923" ID="77923.100004300" title="PCA" />
+            <ListItem name="LI_77924" ID="77924.100004300" title="SCA" />
+            <ListItem name="LI_77925" ID="77925.100004300" title="AICA" />
+            <ListItem name="LI_77926" ID="77926.100004300" title="PICA" />
+            <ListItem name="LI_77927" ID="77927.100004300" title="Basil perforator" />
+            <ListItem name="LI_77928" ID="77928.100004300" title="Thalamoperforator " />
+            <ListItem name="LI_77929" ID="77929.100004300" title="AntChoroidal " />
+        </List>
+    </ListField>
+</Question>

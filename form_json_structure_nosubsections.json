@@ -1,0 +1,187 @@
+{
+    "sections": [
+        {
+            "title": "#This template describes a Common Data Element for CT Stroke by the American College of Radiologists",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "",
+                    "question_id": "76234.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "@Adrenocortical neoplasm@"
+                }
+            ],
+            "section_id": "76242.100004300"
+        },
+        {
+            "title": "Administrative & Identification Data",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Report Date",
+                    "question_id": "76219.100004300",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "Report completed by ",
+                    "question_id": "76413.100004300",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "Procedure",
+                    "question_id": "76325.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "LDCT|Other (specify)"
+                }
+            ],
+            "section_id": "76221.100004300"
+        },
+        {
+            "title": "Findings",
+            "subsections": [],
+            "questions": [
+                {
+                    "title": "Hyperacute signs",
+                    "question_id": "77913.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Yes|No"
+                },
+                {
+                    "title": "Location",
+                    "question_id": "77916.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Right frontal|Temporal|parietal"
+                },
+                {
+                    "title": "Vascular Territory",
+                    "question_id": "77920.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "ACA|MCA|PCA|SCA|AICA|PICA|Basil perforator|Thalamoperforator|AntChoroidal"
+                },
+                {
+                    "title": "Hemorrhagic conversion",
+                    "question_id": "77930.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Yes|No"
+                },
+                {
+                    "title": "Mass effect",
+                    "question_id": "77933.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Yes|No"
+                },
+                {
+                    "title": "Vascular Mechanism/Pattern",
+                    "question_id": "77936.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "embolic|perforator|borderzone ischemia"
+                },
+                {
+                    "title": "Midlineshift in mm",
+                    "question_id": "77940.100004300",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                },
+                {
+                    "title": "Herniation",
+                    "question_id": "77941.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "No|Subfalcine|Transtentorial"
+                },
+                {
+                    "title": "Hyperdense vessel?",
+                    "question_id": "77945.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Yes|No"
+                },
+                {
+                    "title": "Hyperdense Sign",
+                    "question_id": "77948.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Middle cerebral|Anteriorcerebral|Intrasylvian cortical|Basilar artery"
+                },
+                {
+                    "title": "Arterial calcification ",
+                    "question_id": "77953.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Yes|No"
+                },
+                {
+                    "title": "Venous thrombus",
+                    "question_id": "77954.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Yes|No"
+                },
+                {
+                    "title": "Sinus location",
+                    "question_id": "77955.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "Dural venous sinus|Cortical vein"
+                },
+                {
+                    "title": "Hydrocephalus",
+                    "question_id": "77956.100004300",
+                    "question_type": "MC",
+                    "state": true,
+                    "dependents": {},
+                    "options": "No|Yes"
+                },
+                {
+                    "title": "ASPECTS classification",
+                    "question_id": "77957.100004300",
+                    "dependents": {},
+                    "question_type": "ST",
+                    "state": true
+                }
+            ],
+            "section_id": "77659.100004300"
+        }
+    ],
+    "free_questions": [
+        {
+            "title": "Comment(s)",
+            "question_id": "76386.100004300",
+            "question_type": "ST",
+            "state": true
+        }
+    ],
+    "form": {
+        "form_id": "CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF",
+        "form_title": "CCO Synoptic Template for  Stroke",
+        "package_id": "PKG_ACR_CT_STROKE",
+        "form_footer": "(c) 2018 College of American Pathologists.  All rights reserved.  License required for use."
+    }
+}

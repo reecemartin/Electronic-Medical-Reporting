@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SDCPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ihe:qrph:sdc:2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="urn:ihe:qrph:sdc:2016 ../Schemas/RFD+SDCRetrieveForm.xsd" packageID="PKG_ACR_CT_STROKE">
+    <XMLPackage>
+        <FormDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF" baseURI="cap.org" fullURI="_baseURI=cap.org&amp;_lineage=CT_Stroke_CCO.358&amp;_version=1.0.0.DRAFT&amp;_docType=sdcFDF" formTitle="CCO Synoptic Template for  Stroke" lineage="CT_Stroke_CCO.358" filename="CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF.xml" version="1.0.0.DRAFT" xmlns="urn:ihe:qrph:sdc:2016">
+            <Property name="Copyright" type="CAPeCC_static_text" styleClass="copyright" propName="Copyright" val="(c) 2018 College of American Pathologists.  All rights reserved.  License required for use." />
+            <Property name="GenericHeaderText" type="CAPeCC_static_text" propName="GenericHeaderText" val="CCO Radiology Synoptic Template" />
+            <Property name="Category" type="CAPeCC_meta" propName="Category" val="CNS" />
+            <Property name="OfficialName" type="CAPeCC_meta" propName="OfficialName" val="CCO Synoptic Template for  Stroke" />
+            <Property name="CAP_ProtocolName" type="CAPeCC_meta" propName="CAP_ProtocolName" />
+            <Property name="CAP_ProtocolVersion" type="CAPeCC_meta" propName="CAP_ProtocolVersion" />
+            <Property name="TemplateID" type="CAPeCC_meta" propName="TemplateID" val="358.1000043" />
+            <Property name="Restrictions" type="CAPeCC_meta" propName="Restrictions" val="This template applies to CT scans for stroke" />
+            <Property name="CAP_Required" type="CAPeCC_meta" propName="CAP_Required" val="true" />
+            <Property name="AccreditationDate" type="CAPeCC_meta dt.dateTime" propName="AccreditationDate" val="9/14/2018 12:00:00 AM" />
+            <Property name="WebPostingDate" type="CAPeCC_meta dt.dateTime" propName="WebPostingDate" val="9/14/2018 12:00:00 AM" />
+            <Property name="ShortName" type="CAPeCC_meta" propName="ShortName" val="CT_Stroke_CCO" />
+            <Property name="ApprovalStatus" type="CAPeCC_meta" propName="ReleaseStatus" val="DRAFT" />
+            <Property name="AJCC_Version" type="CAPeCC_meta" propName="AJCC_Version" val="8" />
+            <Body name="Body" ID="CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF_Body">
+                <ChildItems name="ch_Body">
+                    <Section name="S_76221" ID="76221.100004300" title="Administrative &amp; Identification Data">
+                        <ChildItems name="ch_76221_1">
+                            <Question name="Q_76219" ID="76219.100004300" title="Report Date">
+                                <ResponseField name="rf_76219_1">
+                                    <Response name="rsp_76219_2">
+                                        <string name="str_76219_3" />
+                                    </Response>
+                                </ResponseField>
+                            </Question>
+                            <Question name="Q_76413" ID="76413.100004300" title="Report completed by ">
+                                <ResponseField name="rf_76413_1">
+                                    <Response name="rsp_76413_2">
+                                        <string name="str_76413_3" />
+                                    </Response>
+                                </ResponseField>
+                            </Question>
+                            <Question name="Q_76325" ID="76325.100004300" title="Procedure">
+                                <ListField name="lf_76325_1">
+                                    <List name="lst_76325_2">
+                                        <ListItem name="LI_NS_76240" ID="76240.100004300" title="LDCT " />
+                                        <ListItem name="LI_Oth_76239" ID="76239.100004300" title="Other (specify)">
+                                            <ListItemResponseField name="lirf_76239_1" responseRequired="true">
+                                                <Response name="rsp_76239_2">
+                                                    <string name="str_76239_3" />
+                                                </Response>
+                                            </ListItemResponseField>
+                                        </ListItem>
+                                    </List>
+                                </ListField>
+                            </Question>
+                        </ChildItems>
+                    </Section>
+                </ChildItems>
+            </Body>
+            <Footer name="footer" ID="Footer.CT_Stroke_CCO.358_1.0.0.DRAFT_sdcFDF">
+                <Property type="meta" styleClass="copyright" propName="CopyrightFooter" val="(c) 2018 College of American Pathologists.  All rights reserved.  License required for use." />
+            </Footer>
+        </FormDesign>
+    </XMLPackage>
+</SDCPackage>

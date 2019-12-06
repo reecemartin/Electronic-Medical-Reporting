@@ -1,0 +1,7 @@
+<Question name="Q_77940" ID="77940.100004300" title="Midlineshift in mm">
+    <ResponseField name="rf_77940_1">
+        <Response name="rsp_77940_2">
+            <string name="str_77940_3" />
+        </Response>
+    </ResponseField>
+</Question>
