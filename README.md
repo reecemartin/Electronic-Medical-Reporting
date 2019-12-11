@@ -12,9 +12,10 @@ My contributions to the project were primarily in the Frontend where I helped cr
 
 ## Notable Elements: 
 
-### Dependent Questions
-
 ### Recursive Rendering of Components
+
+### Dependent Questions
+In the forms some questions have dependents, this means that some answers "trigger" follow-up questions. We chose to render the form such that these questions only appeared when the necessary "trigger" event happened. This required conditional rendering based on response data.
 
 ### Displaying the Correct Form Filling Control based on Context
 
