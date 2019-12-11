@@ -20,26 +20,27 @@ My contributions to the project were primarily in the Frontend where I helped cr
 
 ## Images
 
-### Dependent Question Fill Form
-
-![Dependent Question Fill Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Fill-Form-Dependent-Question.png?raw=true)
-
 ### Fill Form
-
+This is what users see when filling a form uploaded into the system.
 ![Fill Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Fill-Form.png?raw=true)
 
-### Response Browse
+### Dependent Question Fill Form
+This is what users see when a question response within a form triggers a dependent question.
+![Dependent Question Fill Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Fill-Form-Dependent-Question.png?raw=true)
 
+### Response Browse
+This is the Response Browse page which allows for the viewing of "Responses" or filled forms.
 ![Response Browse](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Response-Browse.png)
 
 ### View Form
-
+This is what users see when viewing a form uploaded into the system.
 ![View Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Forms.png)
 
-### View Response Dependent Question
+### View Response
+This is what users see when viewing a response uploaded into the system.
+![View Response](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Response.png?raw=true)
 
+### View Response Dependent Question
+This is what users see when a response uploaded into the system includes dependent questions.
 ![View Response Dependent Question](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Response-Dependent-Question.png?raw=true)
 
-### View Response
-
-![View Response](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Response.png?raw=true)
