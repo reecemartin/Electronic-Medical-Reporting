@@ -18,6 +18,7 @@ My contributions to the project were primarily in the Frontend where I helped cr
 In the forms some questions have dependents, this means that some answers "trigger" follow-up questions. We chose to render the form such that these questions only appeared when the necessary "trigger" event happened. This required conditional rendering based on response data.
 
 ### Displaying the Correct Form Filling Control based on Context
+When responding to the forms, some questions are binary choices (patient y has or does not have condition x), while other questions demand a response from a number of possible options. Due to this we had to render different input components from Material UI based on Question. For "multiple choice" questions with only one option we render a checkbox whereas for true multiple choice questions we render radio buttons.
 
 ## Images
 
