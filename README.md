@@ -13,6 +13,7 @@ My contributions to the project were primarily in the Frontend where I helped cr
 ## Notable Elements: 
 
 ### Recursive Rendering of Components
+Due to the recursive organization of forms with questions and sections we were able to recursively render components in React which was something team members have long wanted to try but, never gotten around to. Recursive component rendering was a total success however we did face issues when using HOC or Higher Order Components recursively - particularly withStyles. We hope to investigate this further in the future.
 
 ### Dependent Questions
 In the forms some questions have dependents, this means that some answers "trigger" follow-up questions. We chose to render the form such that these questions only appeared when the necessary "trigger" event happened. This required conditional rendering based on response data.
