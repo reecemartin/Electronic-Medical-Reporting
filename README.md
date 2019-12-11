@@ -20,12 +20,24 @@ My contributions to the project were primarily in the Frontend where I helped cr
 
 ### Dependent Question Fill Form
 
+![Dependent Question Fill Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Fill-Form-Dependent-Question.png?raw=true)
+
 ### Fill Form
+
+![Fill Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Fill-Form.png?raw=true)
 
 ### Response Browse
 
+![Response Browse](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/Response-Browse.png)
+
 ### View Form
+
+![View Form](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Forms.png)
 
 ### View Response Dependent Question
 
+![View Response Dependent Question](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Response-Dependent-Question.png?raw=true)
+
 ### View Response
+
+![View Response](https://github.com/reecemartin/Electronic-Medical-Reporting/blob/master/Screenshots/View-Response.png?raw=true)
