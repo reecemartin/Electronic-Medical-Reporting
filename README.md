@@ -11,3 +11,21 @@ The application was built as a Web-App with a Frontend composed of ReactJS with 
 My contributions to the project were primarily in the Frontend where I helped create the login page, and form upload functionality. I also played a significant role in the dynamic rendering or the forms.
 
 ## Notable Elements: 
+
+### Dependent Questions
+
+### Recursive Rendering of Components
+
+## Images
+
+### Dependent Question Fill Form
+
+### Fill Form
+
+### Response Browse
+
+## View Form
+
+## View Response Dependent Question
+
+## View Response
