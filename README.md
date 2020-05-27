@@ -1,5 +1,5 @@
 # Electronic-Medical-Reporting:
-This project comes from a University Class at the University of Toronto (CSC302: Engineering Large Software Systems). The team consisted of Christopher Chiu (https://github.com/chr-chiu), Kory McLean (https://github.com/Kory-McLean), Ellen Chen (https://github.com/BlackSpade741), Reece Martin (https://github.com/reecemartin) and Jayde Yue. Chris and Kory primarily worked on the frontend while Ellen, Reece, and Jayde did work for the backend. Code Review and some Fixes were done by everyone.
+This project comes from a University Class at the University of Toronto (CSC302: Engineering Large Software Systems). The team consisted of [Christopher Chiu](https://github.com/chr-chiu), [Kory McLean](https://github.com/Kory-McLean), [Ellen Chen](https://github.com/BlackSpade741), [Reece Martin](https://github.com/reecemartin) and Jayde Yue. Chris and Kory primarily worked on the frontend while Ellen, Reece, and Jayde did work for the backend. Code Review and some Fixes were done by everyone.
 
 ## What it does:
 This project is developed to help doctors keep patient medical records using a standardized forms in XML file format defined by a third party. Our application ingests this XML, parses it, stores it, dynamically renders it, and allows for form filling the the associated actions with saved responses.
