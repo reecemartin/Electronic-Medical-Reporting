@@ -14,7 +14,7 @@
     "react-scripts": "^3.2.0",
     "react-test-renderer": "^16.12.0",
     "redux": "^4.0.4",
-    "sinon": "^7.5.0"
+    "sinon": "^21.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
